@@ -162,9 +162,16 @@ dl.tabs.vertical dd a
         height: auto
     &:first-child
       margin-left: 0
+
 dl.tabs.vertical
   height: auto
-  dt,
+  dt, dd, dt
+    float: none
+    height: auto
+dl.nice.tabs.vertical
+  dd
+    float: none
+    height: auto
 
 ul.tabs-content
   margin: 0
